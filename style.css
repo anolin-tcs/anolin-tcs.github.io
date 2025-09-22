@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(230,245,255);
+    -webkit-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    text-size-adjust:none;
+}
+
+#main_wrapper{
+    max-width:70em;
+    padding: 0 1em 0 2em;
+    display: flex;
+    flex-direction:column;
+    background-color: #FFFFFF;
+    margin:auto;
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap:wrap;
+    font-size : 105%;
+}
+
+#main_title
+{
+    flex:1;
+    text-align: justify;
+    font-size : 100%;
+}
+
+#small_infos{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#main_title h1
+{
+    text-align:left;
+    font-size:200%;
+}
+
+#research
+{
+    text-align:justify;
+}
+
+.paper_list h2
+{
+    font-size: medium;
+    margin-bottom:0;
+}
+
+.author_list
+{
+    margin-left:1em;
+}
+
+.comments
+{
+    margin-left:2em;
+    font-size:85%;
+    font-family: sans-serif;
+}
+
+@media all and (min-width: 68em)
+{
+    .small_devices_br
+    {
+	display:none;
+    }
+}
+
+.paper_link
+{
+    margin-left:0.5em;
+    white-space:nowrap;
+}
+
+a
+{
+    font-family: sans-serif;
+    text-decoration:none;
+    font-size:105%;
+    color: #AA0044;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: #008800;
+}
